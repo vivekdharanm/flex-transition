@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(220, 68, 220);
+            /* transition-property: all;
+            transition-duration: 1s;  
+            transition: width,height,background-color, 1s,3s,4s;
+            transition: all 1s 2s ease;*/
+            transition-property: width,height,background-color;
+            transition-duration: 1s,3s,4s;
+            transition-delay: 2s;
+            transition-timing-function: ease;
+        }
+
+        .box:hover{
+            width: 300px;
+            height: 400px;
+            background-color: rgb(254, 152, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+</body>
+</html>
